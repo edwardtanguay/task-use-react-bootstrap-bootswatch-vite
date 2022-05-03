@@ -1,14 +1,16 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/bootstrap.darkly.min.css';
+// import './styles/bootstrap.morph.min.css';
+// import './styles/bootstrap.quartz.min.css';
 import { Container, Button } from 'react-bootstrap';
 
 function App() {
     return (
         <div className="App">
-            <Container>
+            <Container className="mt-5">
                 <h1>Company Site</h1>
                 <Button className="me-1">Employees</Button>
-                <Button className="btn-warning me-1">Customers</Button>
+                <Button className="btn-success me-1">Customers</Button>
             </Container>
         </div>
     );
