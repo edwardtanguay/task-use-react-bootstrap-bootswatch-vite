@@ -1,11 +1,17 @@
-import './App.css'
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Button } from 'react-bootstrap';
 
 function App() {
-  return (
-    <div className="App">
-    test
-    </div>
-  )
+    return (
+        <div className="App">
+            <Container>
+                <h1>Company Site</h1>
+                <Button className="me-1">Employees</Button>
+                <Button className="btn-warning me-1">Customers</Button>
+            </Container>
+        </div>
+    );
 }
 
-export default App
+export default App;
